@@ -15,7 +15,7 @@ HEADERS = {
                   '(KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.367.36'
 }
 
-bot = telebot.TeleBot('1495859171:AAHTqpbBMwxbnbavD5r5Jus779lBp94rRvw', parse_mode=None)
+bot = telebot.TeleBot('your token', parse_mode=None)
 
 
 @bot.message_handler(commands=['start'])
